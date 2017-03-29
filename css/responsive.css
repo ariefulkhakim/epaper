@@ -1,0 +1,178 @@
+@media only screen and (max-width: 320px) {
+	
+	/*======================
+    	 HEADER STYLE
+	======================*/
+
+	/*header-top*/
+	.header-list ul {
+		padding: 0px;
+		padding-left: 10px;
+	}
+
+	.header-list ul li {
+		margin-right: 10px;
+	}
+
+	.header-welcome {
+		text-align: left;
+	}
+
+	.social-link {
+		text-align: center;
+	}
+
+	/*banner*/
+	.banner {
+		padding: 60px 5px;
+		height: 75vh;
+	}
+
+	.btn-banner {
+		margin-bottom: 10px;
+	}
+
+	.banner-content {
+		text-align: center;
+	}
+
+	.banner-content h4 {
+		font-size: 14px;
+		margin-bottom: 10px;
+	}
+
+	.banner-content h2 {
+		font-size: 28px;
+		font-weight: bold;
+		letter-spacing: 1px;
+	}
+
+	.banner-content p {
+		font-size: 13px;
+		margin-top: 5px;
+		margin-bottom: 10px;
+		text-transform: none;
+	}
+
+	/*======================
+    	 TITLE STYLE
+	======================*/
+
+	.icon-title::before {
+	    background: #03A9F3 none repeat scroll 0 0;
+	    content: "";
+	    height: 4px;
+	    right: 5.3em;
+	    position: absolute;
+	    width: 20%;
+	    top: 43px;
+	}
+
+	.icon-title::after {
+	    background: #03A9F3 none repeat scroll 0 0;
+	    content: "";
+	    height: 4px;
+	    left: 5.3em;
+	    position: absolute;
+	    width: 20%;
+	    top: 43px;
+	}
+
+	/*======================
+    	 PROJECT STYLE
+	======================*/
+
+	.project-content {
+		margin-right: 0px;
+		margin-left: 0px;
+	}
+
+	/*======================
+    	 CONTACT STYLE
+	======================*/
+
+	.contact-left ul {
+		padding-left: 25px;
+		padding-right: 50px;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+
+	/*======================
+	    HEADER STYLE
+	======================*/
+
+	/*header-top*/
+	.header-list ul {
+		padding: 0px;
+		padding-left: 0px;
+	}
+
+	.header-list ul li {
+		margin-right: 8px;
+	}
+
+	/*banner*/
+	.banner {
+		padding-right: 10px;
+		padding-left: 10px;
+	}
+
+	/*======================
+    	 PROJECT STYLE
+	======================*/
+
+	.project-content {
+		margin-right: 0px;
+		margin-left: 0px;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+
+	/*======================
+	    HEADER STYLE
+	======================*/
+
+	/*banner*/
+	.banner {
+		height: 45vh;
+	}
+
+	/*======================
+    	 TITLE STYLE
+	======================*/
+
+	.icon-title::before {
+		right: 27em;
+	}
+
+	.icon-title::after {
+		left: 27em;
+	}
+}
+
+@media only screen and (min-width: 1280px) {
+
+	/*======================
+	    HEADER STYLE
+	======================*/
+
+	/*banner*/
+	.banner {
+		height: 70vh
+	}
+
+	/*======================
+    	 TITLE STYLE
+	======================*/
+
+	.icon-title::before {
+		right: 34em;
+	}
+
+	.icon-title::after {
+		left: 34em;
+	}
+}
