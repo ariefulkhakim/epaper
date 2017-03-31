@@ -10,6 +10,16 @@ Author     : Arieful Khakim
 	'use strict';
 	jQuery(document).ready(function(){
 
+		// Navigation
+	    $(window).scroll(function() {
+	        if ($(".navbar").offset().top > 100) {
+	            $(".navbar-fixed-top").addClass("top-nav-collapse");
+	        } else {
+	            $(".navbar-fixed-top").removeClass("top-nav-collapse");
+	        }
+	        
+	    });
+
 		// Smooth Scroll
 		$('a.smooth_scroll').on("click", function (e) {
 			e.preventDefault();
